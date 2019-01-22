@@ -1726,8 +1726,8 @@ html::-webkit-scrollbar-track:hover,
   z-index: 3; }
 
 .index-subtitle {
-  line-height: 1rem;
-  padding-bottom: 1rem; }
+  line-height: 1.5rem;
+  padding-bottom: 0.5rem; }
   .index-subtitle span:last-of-type {
     transition: color 0.1s ease-in; }
     .index-subtitle span:last-of-type:hover {
@@ -1741,9 +1741,8 @@ html::-webkit-scrollbar-track:hover,
   color: #aaa; }
 
 .index-subcontent {
-  line-height: 1rem;
-  color: #787878;
-  padding-bottom: 1rem; }
+  line-height: 1.5rem;
+  padding-bottom: 0.5rem; }
   .index-subcontent span:last-of-type {
     transition: color 0.1s ease-in;
     font-size: 1.7rem; }
