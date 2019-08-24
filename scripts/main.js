@@ -3967,7 +3967,7 @@ var _default = function _default() {
     var outer = img.outerHTML;
     var imgSrc = /src="(.*)"/.exec(outer) && /src="(.*)"/.exec(outer)[1];
     var imgAlt = /alt="(.*)"/.exec(outer) && /alt="(.*)"/.exec(outer)[1];
-    img.outerHTML = '<a class="fancy-link" href="' + imgSrc + '" data-fancybox="group" data-caption="' + imgAlt + '">' + outer + '</a>';
+    img.outerHTML = + outer ;
   });
 };
 
